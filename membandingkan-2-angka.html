@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+</head>
+<body>
+    <script>
+       const numb1 = Number(prompt("Masukkan angka pertama: "));
+       const numb2 = Number(prompt("Masukkan angka kedua: "));
+
+      if (Number.isNaN(numb1)) {
+         alert("angka pertama bukan angka!");
+       } 
+      if (Number.isNaN(numb2)) {
+         alert("angka kedua bukan angka!");
+       }
+
+       if (numb1 > numb2) {
+           console.log(`${numb1} lebih besar daripada angka ${numb2}`);
+       } else {
+           if (numb1 < numb2) {
+               console.log(`${numb1} lebih kecil daripada angka ${numb2}`);
+           } else {
+               if (numb1 === numb2) {
+                   console.log(`nilai ${numb1} sama dengan ${numb2}`);
+               }
+           }
+       }
+    </script>
+</body>
+
+</html>
