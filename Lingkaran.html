@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+</head>
+<body>
+    <script>
+       const r = Number(prompt("Masukkan Jari-Jari Lingkaran: "));
+
+       const circle = {
+           jari2: r,
+         
+           circumference() {
+               return this.jari2;
+           },
+
+           area() {
+               return 3.14 * this.jari2 * this.jari2;
+           }
+
+
+       }
+
+
+       console.log(`Jari-jarinya adalah ${circle.circumference()}`);
+       console.log(`Luasnya adalah ${circle.area()}`);
+
+    </script>
+</body>
+
+</html>

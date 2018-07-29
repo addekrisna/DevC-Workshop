@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+</head>
+<body>
+    <script>
+
+      const alex = {
+           name: "Alex",
+           balance: 0,
+         
+           credit(a) {
+               this.balance = this.balance + a;
+
+           },
+
+           describe() {
+               return `${this.name} balance = ${this.balance}`;
+           }
+
+
+       }
+
+       alex.credit(250)
+       alex.credit(-80)
+
+       alex.describe()
+
+    </script>
+</body>
+
+</html>

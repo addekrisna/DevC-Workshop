@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+</head>
+<body>
+    <script>
+       const aurora = {
+           name: "Aurora",
+           health: 150,
+           strength: 25,
+           xp: 0,
+
+          describe() {
+            return `${this.name} memiliki ${this.health} health point dan ${this.strength} strength dan ${this.xp} Experience point `;
+          }
+        
+       }
+       
+       aurora.health -= 20;
+
+       aurora.strength += 10;
+
+       aurora.xp += 15;
+
+       console.log(aurora.describe())
+    </script>
+</body>
+
+</html>
